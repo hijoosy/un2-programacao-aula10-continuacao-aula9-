@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+}
+
+h1{
+ color: rgb(30, 136, 185);
+ font-size: 35px;
+
+ 
+}
+#topo{
+    width: 100%;
+    background-color: #1b69b8;
+    height: 30px;
+    
+}
+.largura-site{
+    width: 900px;
+    margin: auto;/*centraliza na página*/
+}
+#logotipo{
+    width: 140px;
+    height: 28px;
+    float: left;
+}
+.imgright{
+    float: right;
+
+}
+.imghome{
+    float: left;
+    margin-top: 80px;
+
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right
+}
+#menu a{
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#menu a:hover{
+
+    text-decoration: underline;
+}
+    
+
+#conteudohome{
+    width: 545px;
+    float: right;
+    height: auto;
+    margin-top: 100px;
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid cornflowerblue;
+}
+#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 15px;
+    color: rgb(42, 81, 153);
+    text-align: center;
+}
+p{
+    color: rgb(49, 47, 47);
+    font-size: 18px;
+    text-align: justify;
+
+}
+li{
+    margin-bottom: 15px;
+
+}
+ul{
+    color: rgb(48, 45, 45);
+    font-size: 16px;
+    list-style-type: square; /*alterar marcador*/
+    list-style-position: inside;/* altera a posição do marcador*/
+}
+input[type=text]{
+    width: 300px;
+    height: 25px;
+    background-color:whitesmoke;
+    border: 1px solid cornflowerblue;
+
+}
+textarea{
+    width: 400px;
+    height: 140px;
+    background-color:whitesmoke;
+    border: 1px solid cornflowerblue;
+    resize: none;
+}
+form{
+    color: rgb(65, 63, 63);
+    margin-bottom: 50px;
+}
+
+
